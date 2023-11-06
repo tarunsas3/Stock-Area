@@ -1,0 +1,111 @@
+.App {
+  background: #dde1e7;
+  height: 100vh;
+}
+
+.App .header {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.App .filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .filters input {
+  padding: 0.1rem;
+  border-radius: .25rem;
+  outline: none;
+}
+
+.App .wrapper {
+  padding: 0.1rem;
+  height: fit-content;
+}
+
+.App  .wrapper table {
+  width: 95%;
+  margin: 15px auto 25px auto;
+  border-collapse: separate;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 2px solid #111;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.App  .wrapper th, .App  .wrapper td {
+  padding: 8px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid #111;
+}
+.App  .wrapper th {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+.App  .wrapper tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.App .formContainer {
+  background: #dde1e7;
+  margin: 0px auto 20px auto;
+  width: 50%;
+}
+.App .formContainer ::-webkit-scrollbar {
+  width: 0.1rem;
+}
+.App .formContainer ::-webkit-scrollbar-thumb {
+  display: none;
+}
+.App .formContainer .formDisplay h3 {
+  padding-top: 3rem;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .formContainer .formDisplay h3 .icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.App .formContainer .formDisplay form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  font-size: 20px;
+  font-family: "cascadia code";
+  padding: 1rem;
+}
+.App .formContainer .formDisplay form label {
+  margin: 0.75rem 0px;
+}
+.App .formContainer .formDisplay form input {
+  outline: none;
+  border: none;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+}
+.App .formContainer .formDisplay form button {
+  margin: 2rem 0rem 1rem 0rem;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bolder;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
